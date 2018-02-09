@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MessageSystemID" id="SKh-Uw-L7G" customClass="MessageSystemCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="445" height="157"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20:25 30/11/2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWJ-9s-V0M">
+                        <rect key="frame" x="147.5" y="0.0" width="150" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="mfA-YP-ywU"/>
+                            <constraint firstAttribute="width" constant="150" id="qaN-LO-X5o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSH-Od-nAb">
+                        <rect key="frame" x="15" y="31" width="415" height="126"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talk TV thông báo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFo-aW-Ji3">
+                                <rect key="frame" x="10" y="10" width="395" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Bem-Id-yG1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.64999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tháng 11 năm 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HY-je-iCd">
+                                <rect key="frame" x="10" y="31" width="395" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fcN-nr-OUm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kể từ ngày 20 tháng 11 năm 2017, Talk TV sẽ ...." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svk-1F-5Vf">
+                                <rect key="frame" x="10" y="62" width="395" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="wgb-vR-wsV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.59607843140000005" green="0.59607843140000005" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDa-En-MB1">
+                                <rect key="frame" x="10" y="85" width="395" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="d8t-M7-Tcd"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98P-K7-LcY" userLabel="Xem noi dung">
+                                <rect key="frame" x="10" y="86" width="395" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="i6r-v1-6oV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Xem chi tiết ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="next_icon" translatesAutoresizingMaskIntoConstraints="NO" id="EmQ-nc-bNM">
+                                <rect key="frame" x="375" y="96" width="20" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Ccn-0s-z5C"/>
+                                    <constraint firstAttribute="width" constant="20" id="OUT-gg-VpF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dFo-aW-Ji3" firstAttribute="leading" secondItem="QSH-Od-nAb" secondAttribute="leading" constant="10" id="0mH-u8-cyn"/>
+                            <constraint firstAttribute="trailing" secondItem="1HY-je-iCd" secondAttribute="trailing" constant="10" id="19l-8t-Pme"/>
+                            <constraint firstAttribute="bottom" secondItem="98P-K7-LcY" secondAttribute="bottom" id="1E1-I6-yJu"/>
+                            <constraint firstItem="dFo-aW-Ji3" firstAttribute="top" secondItem="QSH-Od-nAb" secondAttribute="top" constant="10" id="64h-e5-Ta4"/>
+                            <constraint firstAttribute="trailing" secondItem="98P-K7-LcY" secondAttribute="trailing" constant="10" id="BSM-a1-aR5"/>
+                            <constraint firstAttribute="trailing" secondItem="EmQ-nc-bNM" secondAttribute="trailing" constant="20" id="Cpb-ST-tNS"/>
+                            <constraint firstItem="qDa-En-MB1" firstAttribute="top" secondItem="svk-1F-5Vf" secondAttribute="bottom" constant="2" id="DO7-2q-ZRl"/>
+                            <constraint firstItem="98P-K7-LcY" firstAttribute="leading" secondItem="QSH-Od-nAb" secondAttribute="leading" constant="10" id="Ugu-TF-FET"/>
+                            <constraint firstItem="EmQ-nc-bNM" firstAttribute="top" secondItem="qDa-En-MB1" secondAttribute="bottom" constant="10" id="XMQ-M9-Y6f"/>
+                            <constraint firstItem="qDa-En-MB1" firstAttribute="leading" secondItem="QSH-Od-nAb" secondAttribute="leading" constant="10" id="afO-yX-dbp"/>
+                            <constraint firstAttribute="trailing" secondItem="dFo-aW-Ji3" secondAttribute="trailing" constant="10" id="blm-pN-woK"/>
+                            <constraint firstItem="1HY-je-iCd" firstAttribute="top" secondItem="dFo-aW-Ji3" secondAttribute="bottom" id="lKK-A9-7PG"/>
+                            <constraint firstItem="98P-K7-LcY" firstAttribute="top" secondItem="qDa-En-MB1" secondAttribute="bottom" id="nFj-pS-f6f"/>
+                            <constraint firstItem="svk-1F-5Vf" firstAttribute="leading" secondItem="QSH-Od-nAb" secondAttribute="leading" constant="10" id="nxK-EN-iuP"/>
+                            <constraint firstItem="svk-1F-5Vf" firstAttribute="top" secondItem="1HY-je-iCd" secondAttribute="bottom" constant="10" id="s4G-uU-xIB"/>
+                            <constraint firstAttribute="bottom" secondItem="EmQ-nc-bNM" secondAttribute="bottom" constant="10" id="sfU-7O-Kkd"/>
+                            <constraint firstAttribute="trailing" secondItem="svk-1F-5Vf" secondAttribute="trailing" constant="10" id="tUn-kq-3mb"/>
+                            <constraint firstAttribute="trailing" secondItem="qDa-En-MB1" secondAttribute="trailing" constant="10" id="xIf-x7-W0w"/>
+                            <constraint firstItem="1HY-je-iCd" firstAttribute="leading" secondItem="QSH-Od-nAb" secondAttribute="leading" constant="10" id="xNj-87-Nfp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="QSH-Od-nAb" firstAttribute="leading" secondItem="SKh-Uw-L7G" secondAttribute="leading" constant="15" id="6bn-C0-9Db"/>
+                <constraint firstAttribute="trailing" secondItem="QSH-Od-nAb" secondAttribute="trailing" constant="15" id="IKR-Xb-eBX"/>
+                <constraint firstAttribute="bottom" secondItem="QSH-Od-nAb" secondAttribute="bottom" id="Z57-h3-Hff"/>
+                <constraint firstItem="xWJ-9s-V0M" firstAttribute="centerX" secondItem="SKh-Uw-L7G" secondAttribute="centerX" id="dUk-rc-ekJ"/>
+                <constraint firstItem="QSH-Od-nAb" firstAttribute="top" secondItem="xWJ-9s-V0M" secondAttribute="bottom" constant="10" id="jfh-57-4gr"/>
+                <constraint firstItem="xWJ-9s-V0M" firstAttribute="top" secondItem="SKh-Uw-L7G" secondAttribute="top" id="udV-Af-Axo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="juB-oj-jA6"/>
+            <size key="customSize" width="445" height="137"/>
+            <point key="canvasLocation" x="10.5" y="-56.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="next_icon" width="12" height="12"/>
+    </resources>
+</document>
